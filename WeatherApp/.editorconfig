@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = error
+
+# IDE0040: Add accessibility modifiers
+dotnet_style_require_accessibility_modifiers = always
+
+# IDE1006: Naming Styles
+dotnet_diagnostic.IDE1006.severity = suggestion
